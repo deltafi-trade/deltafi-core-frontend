@@ -1,0 +1,76 @@
+{
+  "testnet": {
+    "network": "testnet",
+    "deltafiMint": "EkzSXG99ngsVx8SSWCszMYivRXN1SZhhxsWhryzEuHgg",
+    "deltafiToken": "4DTziQrAog2b9x2xqHzryFrsaPCwbkyS1Sq75v1iG5uY",
+    "pythProgramId": "8tfDNiaEyrV6Q1U4DEXrEigs9DoDtkugzFbybENEbCDz",
+    "programId": "HcWvS1XyweYMrCvY8TEeDxXgbWJagizUZXxCSLC2E89N",
+    "marketConfig": "s1CNpxquCsCqUPbXHCka18Vofp5XVuahmqAob6SEBBG",
+    "poolInfoList": [
+      {
+        "name": "USDC-USDT",
+        "base": "USDC",
+        "quote": "USDT",
+        "swapInfo": "CwqiVWPcELGUdEyqJmqhAjpwc1NSemGEqVJd1iWLczAa",
+        "farmInfo": "J7Sj8HRan9DqQVQyAW4NNmjMqVxCv4wNy3Ef5XjfJ3FW"
+      },
+      {
+        "name": "SOL-USDC",
+        "base": "SOL",
+        "quote": "USDC",
+        "swapInfo": "K5bvEZ2rNFP7ynkG7QLTAZa8ztGCikxFXs2mxrzv2XT",
+        "farmInfo": "CiMJAvVTiG3HTzsJVFrogy5yLptuFxaiHyWo4p5bAdBt"
+      }
+    ],
+    "tokenInfoList": [
+      {
+        "name": "USD Coin",
+        "mint": "9ZiQNDXaiC7TQAfKcha4hjiSPdxDJfw7pKKsJT49mjfe",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+        "pyth": {
+          "productName": "Crypto.USDC/USD",
+          "price": "GBvYgUMCt4nvycUZMEBpHyLEXGbKjr6G9HjMjmLyf6mA",
+          "product": "HrZuzZTtEZ55A5t3FAvXJ1nPdGDR1mQJDwmPQdVk5NHp"
+        }
+      },
+      {
+        "name": "USDT",
+        "mint": "44PHKq7n7ymWc2aBj4JS97hZHRT9Uc25Aa4kaLJhaMck",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg",
+        "pyth": {
+          "productName": "Crypto.USDT/USD",
+          "price": "AbdpsSpVLHLNKpnwr6aMnUyvwh4nxQercb9d4bmGoUZs",
+          "product": "Bh7N6EHeQ98voei8m4f41z4n1Ck8zzWzK3ZvQTHthvu4"
+        }
+      },
+      {
+        "name": "Wrapped SOL",
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "decimals": 9,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+        "pyth": {
+          "productName": "Crypto.SOL/USD",
+          "price": "7VJsBtJzgTftYzEeooSDYyjKXvYRWJHdwvbwfBvTg9K",
+          "product": "GcnU8V2WKq5QXLhJwBQdt2ankU6GRGh6b1bLCxdykWnP"
+        }
+      },
+      {
+        "name": "Serum",
+        "mint": "HMCW6tEvAJirwTGbdhpcsv8eFBiNS4Ti6rwMbf5VyAUv",
+        "symbol": "SRM",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png",
+        "pyth": {
+          "productName": "Crypto.SRM/USD",
+          "price": "74Bak9eMFPvDLHcnjCpvDWvBSGNd8sCThVe3WmDf7sZW",
+          "product": "GjAC9vA72i6UfJwwgmCBCU9B4Easmmd5wTKe48F3kfYA"
+        }
+      }
+    ]
+  }
+}

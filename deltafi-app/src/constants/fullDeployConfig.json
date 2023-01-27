@@ -1,0 +1,682 @@
+{
+  "localhost": {
+    "network": "localhost",
+    "swapProgramId": "GTHFXBiyJNtQSuQ3HouWExrDiXEvqjrn5Hwbpe1bFB7U",
+    "marketConfigAddress": "57pCgFkJVdkeHACWkz61kwBibcTct2NkCKcTiQaqgFqq",
+    "marketAuthority": "AYYUkAXcaf2geogoPiFnkju28xcrbbfVYPkwFZUzEAXd",
+    "bumpSeed": 255,
+    "deltafiTokenMint": "9zuKduFQR75Qv2YBea9cVufpqUAXSwq3vHiSeDUhF6XR",
+    "deltafiToken": "3Xy1hdxWXrzXf9P7Nt2RR6P1ufN2JbisLmwAL22Tkgpf",
+    "serumProgramId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "poolInfo": [
+      {
+        "name": "SOL-USDC",
+        "base": "SOL",
+        "quote": "USDC",
+        "swap": "CAjmHhA3APAfY5tdERNjd8kuTLhpaFyApp74eVhmZcR",
+        "mint": "6DxYigrrmKtRSR6hRptcoHAk3MhShGvWmtYUb3av1Kxj",
+        "farm": "9CSdfLZv6CEMPn5GiNcMCSaG86XrAUPrw1geqmXaXBgv",
+        "token": "3zwvSapb5VuLaJGy3SbKEDYb2T2vkjENRMH1e2DzUq1p"
+      },
+      {
+        "name": "SOL-SRM",
+        "base": "SOL",
+        "quote": "SRM",
+        "swap": "54STkgY6NyUPFFmy7uRfdfSBYA5XxVVyGaZdtGfUiSXJ",
+        "mint": "6c1LLXn1tMTHs9nLg6rjuMdEEFn973DLyhAizkYsTf6t",
+        "farm": "CLMg9NEhttNePbDoFnRqZCPveB9KjT6qXnUJxyKo9Fs5",
+        "token": "Env6HBnCPyp8wqAfbHZxiiVw5aHX7iExVq3Vg9kuBy9X"
+      },
+      {
+        "name": "SRM-USDC",
+        "base": "SRM",
+        "quote": "USDC",
+        "swap": "C8tPKjpZAWqZQGVsBjDLdFK28qe2FfbhYr8Vbwjzu7fi",
+        "mint": "GaVtrb2T6A4Yq1sd6tT2D3V8nRG6Cy8MDXPzyMfgb4Sz",
+        "farm": "7o8XsraZL5wmJ5BCmLiPTZcCosKBPiNYZvVMxki71Xnv",
+        "token": "F5WVsMYWDnV2ScWmnYc5nNZoj51mCgE1RvS9MYTWg3ok"
+      },
+      {
+        "name": "USDC-USDT",
+        "base": "USDC",
+        "quote": "USDT",
+        "swap": "9JsqWqVmV27JiuhUTDoyKTakXQf7Um66scvagrKY7dAG",
+        "mint": "ALKdFskns6zYYDkbRX8MJyRW2FtbEDgYreGFGfRNdUEs",
+        "farm": "CVZtj1kUya68WAPJfUCruqYn5f8WjqSyK2Qbj2DUEiUk",
+        "token": "2izFgmBTTdBsrqkpxoQX55Caw3yHTy513KWdDSstBWGo"
+      }
+    ],
+    "tokenInfo": [
+      {
+        "pyth": {
+          "productName": "Crypto.USDC/USD",
+          "fixedUsdPrice": 1,
+          "price": "GBvYgUMCt4nvycUZMEBpHyLEXGbKjr6G9HjMjmLyf6mA",
+          "product": "HrZuzZTtEZ55A5t3FAvXJ1nPdGDR1mQJDwmPQdVk5NHp"
+        },
+        "mint": "2oViQjomgFonQsT4V2G9hfebciMJcLuKJUMPoXKgKFNa",
+        "symbol": "USDC",
+        "decimals": 6,
+        "name": "USD Coin",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.USDT/USD",
+          "fixedUsdPrice": 1,
+          "price": "GBvYgUMCt4nvycUZMEBpHyLEXGbKjr6G9HjMjmLyf6mA",
+          "product": "HrZuzZTtEZ55A5t3FAvXJ1nPdGDR1mQJDwmPQdVk5NHp"
+        },
+        "mint": "Eoaf9mixhbXoMUMRLY5NjYvsF2hcDFtdwFedzKbvQZRf",
+        "symbol": "USDT",
+        "decimals": 6,
+        "name": "USDT",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SOL/USD",
+          "fixedUsdPrice": 87,
+          "price": "7VJsBtJzgTftYzEeooSDYyjKXvYRWJHdwvbwfBvTg9K",
+          "product": "GcnU8V2WKq5QXLhJwBQdt2ankU6GRGh6b1bLCxdykWnP"
+        },
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "decimals": 9,
+        "name": "Solana",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SRM/USD",
+          "fixedUsdPrice": 2,
+          "price": "74Bak9eMFPvDLHcnjCpvDWvBSGNd8sCThVe3WmDf7sZW",
+          "product": "GjAC9vA72i6UfJwwgmCBCU9B4Easmmd5wTKe48F3kfYA"
+        },
+        "mint": "59KfLKLwF2aT3YodgrFWzENYZw2zHy5AQcksDFVbNdku",
+        "symbol": "SRM",
+        "decimals": 6,
+        "name": "Serum",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png"
+      }
+    ]
+  },
+  "mainnet-prod": {
+    "network": "mainnet-beta",
+    "swapProgramId": "3gaAmJzWkXfkVWK1Q7BcWBE5KJtU4mtG9mQ7aGBSSp3X",
+    "marketConfigAddress": "5hwGxMpQkoAx21aoAvafT3NmAGk1iZTorjoQz3j2SKk6",
+    "marketAuthority": "FsWosvPyFGyyMs54ecpWdMcbV8JR4EUspinr4Kr35oDa",
+    "bumpSeed": 255,
+    "deltafiTokenMint": "de1QJkP1qDCk5JYCCXCeq27bQQUdCaiv7xVKFrhPSzF",
+    "deltafiToken": "J6NXoLLUwywpeDhSVbD2bawigPEmBGczgNq3dTAkA4fu",
+    "serumProgramId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "poolInfo": [
+      {
+        "name": "SOL-USDC",
+        "base": "SOL",
+        "quote": "USDC",
+        "swap": "8KTcA3j7U4tMh1jBPbF5tD5uCUiCd1CDcX964iwPcPrg",
+        "mint": "8sxLm5bamigCgnZGVEx4WG2EeuaAkj6qYHZH8dJCLuEQ",
+        "farm": "Bqzx8oFD8DQ9tgdrWm5Y6JtyLwdDokMmuRkWy3DuEymM",
+        "token": "HCJXFFYjQgrUu5Jx3mzU3HD9hociQehSnZgySvvjyYMo",
+        "decimals": 9,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "SOL-SRM",
+        "base": "SOL",
+        "quote": "SRM",
+        "swap": "EXtM3YpBwiEt41wG3CEFg782Uftfj2EhNnzFKXn5qR5q",
+        "mint": "3mVYofMiCma455jvpEUHSTtVDBa9mSdPqDPVGXjdTd1n",
+        "farm": "4Nr5czcrNM2jkX6jkcgeY557XQxqK3XihdVNZ6gcwZDP",
+        "token": "ABsGeTefueyqEgABT86HhSDPehaFxc8aDF5hAfc21MpB",
+        "decimals": 9,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "SRM-USDC",
+        "base": "SRM",
+        "quote": "USDC",
+        "swap": "BF634p5jjQ22fAV1Qnzs5HoxHS5JdwXsiivZxxGkYera",
+        "mint": "7pa4L3kCAhxGm7uwVESsBWXrpt6SVEbJCoDAwpQQ272w",
+        "farm": "4rZWRLHHeVz9a3qm1H62aD74RhTSRpuJULdMoYEE6Tjz",
+        "token": "7AAbRbDKZPf6mLiSjkiTLJqKpjgMjhUtXL3saktzJHaL",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "LUNA-USDC",
+        "base": "LUNA",
+        "quote": "USDC",
+        "swap": "4AJSHReHbC5VKYuXwvoQCUamPThjwtxcLQr37Sw3ATXf",
+        "mint": "3AMgSMCx1yGbai3zgTrhi7Fn2FHWtwaB3fBkXyniY1vb",
+        "farm": "Hx1KJHUTko7Mf2ND1oifLPxk3CUAKdbVuhBfCapZqmuk",
+        "token": "JCo69Qc24zuGwas5SH8i4cpJsUDgZSMLACAwTzY3t8Nv",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "ETH-USDC",
+        "base": "USDC",
+        "quote": "ETH",
+        "swap": "7rJo7bKnjg32ixi8Y5iQgPoH4XCMCDqWNJ4Ud5LT9XVn",
+        "mint": "77Qs5EjWs7AXWcHrNCdL7Lmbs5ECPVczGNdtfn4u39fQ",
+        "farm": "2XoMLd64TVxGB1rwQEbzZ22oFpbuac3LT8FDgFQfk1sq",
+        "token": "4Kdd2ZSYeokYSthKCjXGmfuTAercVYYG6JvPNA5roxk8",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "mSOL-USDC",
+        "base": "USDC",
+        "quote": "mSOL",
+        "swap": "HcVjVSefVGtwqynYRobmvpkpvZpBHsVmDuHbeBYXJckR",
+        "mint": "B5K3QLCTPD7wRiBvCCL6YiNrNBNSgjZGn7NUDxkrTPA",
+        "farm": "8FE4fDaE7ssu3ZEubHsKhvPuJCVrp6daTucxfF2Q2nrM",
+        "token": "3tTSJWN4UxvBQRNJNxsEwczwoQt1gnLaEQmySS6mcMgY",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "stSOL-USDC",
+        "base": "USDC",
+        "quote": "stSOL",
+        "swap": "6JQ4bkvBVzjnhscrSRu6er1FuFY6JeF9JjakcriUeeGm",
+        "mint": "9oXjWYFJ94aqRnH6C23kGQFRr5PDyQQf2VaCrjtCKtg7",
+        "farm": "7ryKwqBu5uJYo9enNi89qm6YJYwHo2mdiDxvP1hA4AzQ",
+        "token": "GnMMKYTQDAN1ipCjA4uYkxxdBg5pxA3Je22y67hcsBBv",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "BTC-USDC",
+        "base": "USDC",
+        "quote": "BTC",
+        "swap": "2zLfRKZ3Kj1Uke95BhvoPuKHvfQxGVMu7UKrpfe6h7C9",
+        "mint": "5qyxLj1DE9WJ1HdvbRxeH5vKTuJtmXCE7YpZUduHhMwU",
+        "farm": "8LRYG3B5cWpGgvLbeuaqzYKkvqvKrpHfcZbsTSk5eiYD",
+        "token": "DPCLCqb3SthhMGURFH3rHRCB6iXoH45SH7ZkGysKvegw",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "soFTT-USDC",
+        "base": "USDC",
+        "quote": "soFTT",
+        "swap": "GjFTEMox2YMT8tt13UijwZC5LRir833zrwmD7DSvEPcy",
+        "mint": "DzUFsfbmfEtGoaVqB12j54mzxNmYE7CBcCycANZQCdhN",
+        "farm": "3teoGmayuqynRnvePnCAFGRNNLkYvRdHk6h2iQK2U47A",
+        "token": "12ZGP9XxB463jGNKfMkaeG3bmcC3Pxkty28HS35iGXpb",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "USDC-USDT",
+        "base": "USDC",
+        "quote": "USDT",
+        "swap": "BU6gEuehCmDw2XrfNb2WK74PdLQnLwUgZUMqt9NzMmPN",
+        "mint": "8hVHAGeNHytsJWGu1RxtRDskPvBBu3KfCoZvV6eFSbDs",
+        "farm": "FsW2ViEiJMXGoRgFVagsF1D7tR3wV3QdPe5D9KuVveTS",
+        "token": "7bMmkfke5tL86rRTofxuuHdZqzpk2PXwNVsEv2HzZfEc",
+        "decimals": 6
+      }
+    ],
+    "tokenInfo": [
+      {
+        "pyth": {
+          "productName": "Crypto.USDC/USD",
+          "price": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
+          "product": "8GWTTbNiXdmyZREXbjsZBmCRuzdPrW55dnZGDkTRjWvb"
+        },
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "decimals": 6,
+        "name": "USD Coin",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SOL/USD",
+          "price": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
+          "product": "ALP8SdU9oARYVLgLR7LrqMNCYBnhtnQz1cj6bwgwQmgj"
+        },
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "decimals": 9,
+        "name": "Solana",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SRM/USD",
+          "price": "3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym",
+          "product": "6T1eJbKWyhZXEjmuBej9gPk3SRTagzrEQovCSwAWD57P"
+        },
+        "mint": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "symbol": "SRM",
+        "decimals": 6,
+        "name": "Serum",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.USDT/USD",
+          "price": "3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL",
+          "product": "Av6XyAMJnyi68FdsKSPYgzfXGjYrrt6jcAMwtvzLCqaM"
+        },
+        "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "symbol": "USDT",
+        "decimals": 6,
+        "name": "USDT",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.ETH/USD",
+          "price": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
+          "product": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ"
+        },
+        "mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+        "symbol": "ETH",
+        "decimals": 8,
+        "name": "Ether (Wormhole)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.LUNA/USD",
+          "price": "5bmWuR1dgP4avtGYMNKLuxumZTVKGgoN2BCMXWDNL9nY",
+          "product": "2Lg3b2UdD4hzrxHpcwhgShuUdccTKFoo2doAUZawEdPH"
+        },
+        "mint": "F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W",
+        "symbol": "LUNA",
+        "decimals": 6,
+        "name": "LUNA (Wormhole)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.STSOL/USD",
+          "price": "Bt1hEbY62aMriY1SyQqbeZbm8VmSbQVGBFzSzMuVNWzN",
+          "product": "9mpaSy5ocwPvoaxWZc4S8MhUUeUKmmFqymBJTfY6CJ6o"
+        },
+        "mint": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
+        "symbol": "stSOL",
+        "decimals": 9,
+        "name": "Lido Staked SOL",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.MSOL/USD",
+          "price": "E4v1BBgoso9s64TQvmyownAVJbhbEPGyzA3qn4n46qj9",
+          "product": "BS2iAqT67j8hA9Jji4B8UpL3Nfw9kwPfU5s4qeaf1e7r"
+        },
+        "mint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+        "symbol": "mSOL",
+        "decimals": 9,
+        "name": "Marinade staked SOL (mSOL)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.BTC/USD",
+          "price": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+          "product": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM"
+        },
+        "mint": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
+        "symbol": "BTC",
+        "decimals": 6,
+        "name": "Wrapped Bitcoin (Sollet)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.FTT/USD",
+          "price": "8JPJJkmDScpcNmBRKGZuPuG2GYAveQgP3t5gFuMymwvF",
+          "product": "E7ymZgACaSd1fYLf2V7WkAmFkpRiWfAjm49R7bceny9K"
+        },
+        "mint": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+        "symbol": "soFTT",
+        "decimals": 6,
+        "name": "Wrapped FTT (Sollet)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3/logo.png"
+      }
+    ]
+  },
+  "mainnet-test": {
+    "network": "mainnet-beta",
+    "swapProgramId": "8Y7g9EN4MQv5epFEU3aKpXrNcu1t2nkyM2jZpWkw6q1u",
+    "marketConfigAddress": "5fb9KKiX4unmeq2F2ZjvNahc38AALL7dDQuPanDNKRt1",
+    "marketAuthority": "AayPu5EsKaNrxQ2FdVZVi4Hz2xhWw3JkoyNdagQYLD32",
+    "bumpSeed": 255,
+    "deltafiTokenMint": "tstpB7nAg8n7ynm5C5mfRkQ73Q8dSTcyxkjNvR2Bspt",
+    "deltafiToken": "Cajir4DbVH8Gyj8E9EjuvxmrZj9ihZYVYZJ7RNH5uBQs",
+    "serumProgramId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "poolInfo": [
+      {
+        "name": "SOL-USDC",
+        "base": "SOL",
+        "quote": "USDC",
+        "swap": "5tqeQMtAjgreGYz7ApN2A8JxMjQqbp4g9Z2S6MF3XFJ7",
+        "mint": "DnRuYKY5d2Rw8PY5DfB6Q2DcKuUCMXcsd41yzcJGzzH8",
+        "farm": "9J44Ex8PBvzeeTEPcwqeuZ4HJYswX8PFcdGBQpH6M3fD",
+        "token": "AGvDuH6aYrbeetgttaMdtY9Jp5UidWpcGVVWXWSGf9GC",
+        "decimals": 9,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "SOL-SRM",
+        "base": "SOL",
+        "quote": "SRM",
+        "swap": "5hXCKkLB1HYW5v5K7ctGVp7mYzjtACYkqoRhGWDUd8jJ",
+        "mint": "AYeBNmoFWFHMLtu8oJs9BkDt7Z2gqUCZEbFB3izryAHg",
+        "farm": "DsEzfpo5YrPW5jCZVMddjMuze2sK7AgLyWSZrrGEgzPK",
+        "token": "FSmiCZA6NTsMvqWSt2vV6XqcDX9ou3TtmS34KwLombKy",
+        "decimals": 9,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "SRM-USDC",
+        "base": "SRM",
+        "quote": "USDC",
+        "swap": "GxPJ6pcf1jXKfA2qHbwJG8rDsfQ3xGidrsebqiL6diBg",
+        "mint": "DGepQvYSGKP49mEk2P9dtTLKkqnjZ9Qg6fb4f9r9SSZ2",
+        "farm": "64gEGuaACTLkzGFxYnhknj5ZLAURDvf8ut2jbjgJbQun",
+        "token": "AmBamE89XLtF2ta12bYZajKhKjE4YXzg5rPAiF5J1SWL",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "LUNA-USDC",
+        "base": "LUNA",
+        "quote": "USDC",
+        "swap": "Fg95gHfNdEYMGmrrTPLtwwpnfzYZRsGp5PKs7WXJh3tG",
+        "mint": "9Dw3Q5CSonygdXgSRSDZrxBDusrXMpM5weELqUN1N5cr",
+        "farm": "7oBB3ij6xmrTagfURSSjJAGMc9AsrUXmeYSrrQruMkhR",
+        "token": "E752xak1AzxceRBc5jbo98oG7WCn9ZyaTbVAvLYYuSV8",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "ETH-USDC",
+        "base": "USDC",
+        "quote": "ETH",
+        "swap": "Fct36KqgtLwShMx4nt2miwF7JMxg2M9L9AuVUHuDCwYS",
+        "mint": "2AFdQuLLeitjFjxtgNbqAk1FaSGjSoYRQHcDKZYpRjkx",
+        "farm": "9oiCK1imbLLk76YNYm5P4of8wHgEx3VCC9CS3b1Uhxk2",
+        "token": "FrqwhgsMveYBdanmAj2TwybS9sXK4HzZRNV5d4Au6AMP",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "mSOL-USDC",
+        "base": "USDC",
+        "quote": "mSOL",
+        "swap": "Tzh22e3YtjkjQ4C7FRBUYzyR6Kx6pXdeUB1h5FobBKY",
+        "mint": "5xi2F2bW56GUpUoHfyz1enPVMKoutYuiWFo8mEPnLHZR",
+        "farm": "3ecc2jzxgEQJzdwz1vTWTcaANhnNgTLA8As6QSztvVCA",
+        "token": "2pwGw2mvQbheidgKuGRiJ8F7GXmytizxC8ssjMyPQKZ3",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "stSOL-USDC",
+        "base": "USDC",
+        "quote": "stSOL",
+        "swap": "4DWBhLezCDMCi6JCpeWBSCfJyFbui5d8jjnV3Exzx8FR",
+        "mint": "DTatec3S5ZsR1KBV3ePqn3rUfVXjZL7BNadU5GtrbXVD",
+        "farm": "CpnzMuS2dtgktmgxra7mD1KHrSLF2jmXiGuoPE7G8EyQ",
+        "token": "BFDMVrfmk3HescXrYC5peUeRAWN3RGP67kG6xZYRwMkJ",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "BTC-USDC",
+        "base": "USDC",
+        "quote": "BTC",
+        "swap": "GHFaCjfv5xdRfVvb7hgHikQL8bzLrTTF7tVTUrduUwTc",
+        "mint": "25aDuiGRJguqtBkHFzd6FnMJ5zYRMUZVjjNtqWATTebg",
+        "farm": "DNUPxzxEJvREPYWojP1U9nzaZS6gb15DVKG82h9Gd6ft",
+        "token": "3GzDQVABsZtBQABCW7fuBweBSjAA41sdCCkWfN17d5Fc",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "soFTT-USDC",
+        "base": "USDC",
+        "quote": "soFTT",
+        "swap": "4qXsTeG94E5zxXfBcRPfq4g8jU9N6JTLzApVzna92Z9J",
+        "mint": "E7RFqQRGg8VZJuvcVsNu9UqTgFxkStrvCZZHJ3H6KxNP",
+        "farm": "BtuQEGR5SaR6psm8zVD5qzxiBSi9jMeTbLZpanq8Bpmn",
+        "token": "6SdscKHaaYAd1xsmrcVGJYQ58ZDEdWLzun1wcdvvDGts",
+        "decimals": 6,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "USDC-USDT",
+        "base": "USDC",
+        "quote": "USDT",
+        "swap": "47trsEY9xSeKrqFDFjpqsaeKwqdGPgt4TD1zzDubr46c",
+        "mint": "8JSg5CLxjKcA3fUHbvCG4dMrqR8RMnzYdjeDWHzQjnJJ",
+        "farm": "5QYn31EzSuBRZrmS2ZQD2DKhAAPgGS6pLEwkL2E1pwag",
+        "token": "2aD8XdumqTxSYpo9snywGMikskPEvk7X12HyQTjegZHq",
+        "decimals": 6
+      }
+    ],
+    "tokenInfo": [
+      {
+        "pyth": {
+          "productName": "Crypto.USDC/USD",
+          "price": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
+          "product": "8GWTTbNiXdmyZREXbjsZBmCRuzdPrW55dnZGDkTRjWvb"
+        },
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "decimals": 6,
+        "name": "USD Coin",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SOL/USD",
+          "price": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
+          "product": "ALP8SdU9oARYVLgLR7LrqMNCYBnhtnQz1cj6bwgwQmgj"
+        },
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "decimals": 9,
+        "name": "Solana",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SRM/USD",
+          "price": "3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym",
+          "product": "6T1eJbKWyhZXEjmuBej9gPk3SRTagzrEQovCSwAWD57P"
+        },
+        "mint": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "symbol": "SRM",
+        "decimals": 6,
+        "name": "Serum",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.USDT/USD",
+          "price": "3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL",
+          "product": "Av6XyAMJnyi68FdsKSPYgzfXGjYrrt6jcAMwtvzLCqaM"
+        },
+        "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "symbol": "USDT",
+        "decimals": 6,
+        "name": "USDT",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.ETH/USD",
+          "price": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
+          "product": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ"
+        },
+        "mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+        "symbol": "ETH",
+        "decimals": 8,
+        "name": "Ether (Wormhole)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.LUNA/USD",
+          "price": "5bmWuR1dgP4avtGYMNKLuxumZTVKGgoN2BCMXWDNL9nY",
+          "product": "2Lg3b2UdD4hzrxHpcwhgShuUdccTKFoo2doAUZawEdPH"
+        },
+        "mint": "F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W",
+        "symbol": "LUNA",
+        "decimals": 6,
+        "name": "LUNA (Wormhole)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.STSOL/USD",
+          "price": "Bt1hEbY62aMriY1SyQqbeZbm8VmSbQVGBFzSzMuVNWzN",
+          "product": "9mpaSy5ocwPvoaxWZc4S8MhUUeUKmmFqymBJTfY6CJ6o"
+        },
+        "mint": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
+        "symbol": "stSOL",
+        "decimals": 9,
+        "name": "Lido Staked SOL",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.MSOL/USD",
+          "price": "E4v1BBgoso9s64TQvmyownAVJbhbEPGyzA3qn4n46qj9",
+          "product": "BS2iAqT67j8hA9Jji4B8UpL3Nfw9kwPfU5s4qeaf1e7r"
+        },
+        "mint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+        "symbol": "mSOL",
+        "decimals": 9,
+        "name": "Marinade staked SOL (mSOL)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.BTC/USD",
+          "price": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+          "product": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM"
+        },
+        "mint": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
+        "symbol": "BTC",
+        "decimals": 6,
+        "name": "Wrapped Bitcoin (Sollet)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.FTT/USD",
+          "price": "8JPJJkmDScpcNmBRKGZuPuG2GYAveQgP3t5gFuMymwvF",
+          "product": "E7ymZgACaSd1fYLf2V7WkAmFkpRiWfAjm49R7bceny9K"
+        },
+        "mint": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+        "symbol": "soFTT",
+        "decimals": 6,
+        "name": "Wrapped FTT (Sollet)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3/logo.png"
+      }
+    ]
+  },
+  "mainnet-test-2": {
+    "network": "mainnet-beta",
+    "swapProgramId": "2fY2b61e6qCjLz8Jv6GbfuBRVi1wdk9VJDKSmY1p9fj9",
+    "marketConfigAddress": "HfvhR1B9E5BUxxk2jWuXz4SkRBhnnwDMdPhWWNxYmFfU",
+    "marketAuthority": "DRNJL5XvwaK8bUZMPyvQJDjDFVUqXBNw7TXocsQLLUww",
+    "bumpSeed": 255,
+    "deltafiTokenMint": "tstpB7nAg8n7ynm5C5mfRkQ73Q8dSTcyxkjNvR2Bspt",
+    "deltafiToken": "9pYEVHb2ZhJ7oQi93XSjXTyLyfHn6S9e7nMxhzkK34C9",
+    "serumProgramId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "poolInfo": [
+      {
+        "name": "SOL-USDC",
+        "base": "SOL",
+        "quote": "USDC",
+        "swap": "BnGsJnNJHjMuBTXtpABMDJT7RYfWRPhAXFh8RmZPpgq7",
+        "mint": "7gmfJUE4Zw7CgBBWwr2agcjouxWcE1ZwdfyUxMEVfGqj",
+        "farm": "GJk5kcnSgw3RFUNrogKEbVT5dyTUTtUkQqJjoXWmKGKC",
+        "token": "AgQaFTAqnmNvDoNCLtcPJodm4vudABaWiEaciGDz3JDp",
+        "decimals": 9,
+        "oraclePriority": "PYTH_ONLY"
+      },
+      {
+        "name": "soLINK-USDT",
+        "base": "soLINK",
+        "quote": "USDT",
+        "swap": "DR6iYsvZBUiURxMm1zw8srcB48fEwXChjsLdMdRgC1gy",
+        "mint": "C4cMRMryUZHGtFHXsS2TeVMr24niq3R1onsinZ4cb4Jt",
+        "farm": "o2qLefTkJKtWLmKirWKpgFd4ceUxVNGtwLJgQRaTB5w",
+        "token": "8jJrXPJ5SzVVSQKiZ3LscFMdQfDPnQYW9rkeLbenrgLz",
+        "decimals": 6,
+        "oraclePriority": "SERUM_ONLY",
+        "serumMarket": "3yEZ9ZpXSQapmKjLAGKZEzUNA1rcupJtsDp5mPBWmGZR",
+        "serumBids": "9fkA2oJQ7BKP5n2WxdLkY7mDA1mzBrGZ9osqVhvdBkH7",
+        "serumAsks": "G8c3xQURJk1oukLqJd3W4SJykmRq4wq3GrSWJwWipECH"
+      },
+      {
+        "name": "USDC-USDT",
+        "base": "USDC",
+        "quote": "USDT",
+        "swap": "9SEf6MrN9erqnDYVvVxmMSQZuVMSi6w7pG7NtFaL8fbT",
+        "mint": "FyrGd8VaQJRQEbMiTpCEefexL7qSfvaTkSsAyM8nEXLM",
+        "farm": "9AnZSW8Raed9J4yrKMF75RhqXMKKPkqxAHAUVMeN4qjA",
+        "token": "EisjYKLCEn3N71yZwxETr3iyr4SyA3RrPVEdFvbYDM5k",
+        "decimals": 6
+      }
+    ],
+    "tokenInfo": [
+      {
+        "pyth": {
+          "productName": "Crypto.USDC/USD",
+          "price": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
+          "product": "8GWTTbNiXdmyZREXbjsZBmCRuzdPrW55dnZGDkTRjWvb"
+        },
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "decimals": 6,
+        "name": "USD Coin",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.SOL/USD",
+          "price": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
+          "product": "ALP8SdU9oARYVLgLR7LrqMNCYBnhtnQz1cj6bwgwQmgj"
+        },
+        "mint": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "decimals": 9,
+        "name": "Solana",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+      },
+      {
+        "pyth": {
+          "productName": "Crypto.USDT/USD",
+          "price": "3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL",
+          "product": "Av6XyAMJnyi68FdsKSPYgzfXGjYrrt6jcAMwtvzLCqaM"
+        },
+        "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "symbol": "USDT",
+        "decimals": 6,
+        "name": "USDT",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg"
+      },
+      {
+        "mint": "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG",
+        "symbol": "soLINK",
+        "decimals": 6,
+        "name": "Wrapped Chainlink (Sollet)",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG/logo.png"
+      }
+    ]
+  }
+}
